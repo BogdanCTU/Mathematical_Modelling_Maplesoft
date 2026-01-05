@@ -821,6 +821,6 @@ $$
 \text{ysim}_{0}:=  0.4
 $$
 
-![Plot](MM_GENERAL_FULL_DOCplot2d20.png)
-![Plot](MM_GENERAL_FULL_DOCplot2d21.png)
-![Plot](MM_GENERAL_FULL_DOCplot2d22.png)
+![Plot](./Images/MM_GENERAL_FULL_DOCplot2d20.png)
+![Plot](./Images/MM_GENERAL_FULL_DOCplot2d21.png)
+![Plot](./Images/MM_GENERAL_FULL_DOCplot2d22.png)
