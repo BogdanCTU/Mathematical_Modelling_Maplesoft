@@ -1,6 +1,3 @@
-%% Created by Maple 2025.1, Windows 11
-%% Source Worksheet: MM_GENERAL_FULL_DOC
-%% Generated: Mon Jan 05 16:53:47 EET 2026
 ## SEMINAR 1: Modelling Change with Difference Equations
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
@@ -204,9 +201,6 @@ display(data_plot);
 ```
 ![Plot](MM_GENERAL_FULL_DOCplot2d4.png)
 ![Plot](MM_GENERAL_FULL_DOCplot2d5.png)
-
-\newpage
-\
 
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
