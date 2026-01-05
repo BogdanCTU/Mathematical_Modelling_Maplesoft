@@ -5,7 +5,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
 Write the first five terms of the following sequences:
 
-(a) $a_{n+1}$ = 3*$a_{n}$ , $a_{0}$ = 1
+(a) $a_{n+1}$ = 3 * $a_{n}$    , $a_{0}$ = 1
 
 ```maple
 > a[0] := 1000;
@@ -51,8 +51,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
 Write the first 5 terms of the sequence satisfying the following difference equations and draw the corresponding graph of the generated dynamical system:
 
-$Δa_{n}$ =
-$ \frac{1}{3}a_ {{n }} $ , $a_{0}$=1
+$\Delta a_{n} = \frac{1}{3}a_{n}, \quad a_{0}=1$
+
 ```maple
 > restart;
 
