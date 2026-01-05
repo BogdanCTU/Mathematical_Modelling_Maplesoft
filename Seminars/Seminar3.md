@@ -283,7 +283,7 @@ $$
 $$
 X_{2}:=  0.1
 $$
-![Plot](MM_GENERAL_FULL_DOCplot2d11.png)
+![Plot](./Images/MM_GENERAL_FULL_DOCplot2d11.png)
 $$
 \text{"----------- CASE 2 -----------"}
 $$
