@@ -560,7 +560,7 @@ Study the stability of the equilibrium point (0,0) for the following systems. Fo
 (a)
 $$
 \begin{cases}
-x_{n+1} = x_{n} + 4 \cdot y_{n} \\
+x_{n+1} = x_{n} + 4 \cdot y_{n} \\\\
 y_{n+1} = \frac{1}{4} \cdot x_{n} + y_{n}
 \end{cases}
 $$
@@ -679,7 +679,7 @@ For locally asymptotically stable equilibrium points, determine some initial con
 (a)
 $$
 \begin{cases}
-x_{n+1} = x_{n} + \frac{1}{6} \cdot x_{n} \cdot (1 - x_{n} - y_{n}) \\
+x_{n+1} = x_{n} + \frac{1}{6} \cdot x_{n} \cdot (1 - x_{n} - y_{n}) \\\\
 y_{n+1} = y_{n} \cdot (1 + x_{n} - y_{n})
 \end{cases}
 $$
