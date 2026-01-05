@@ -1,0 +1,2 @@
+# Mathematical_Modelling_Maplesoft
+Mathematical Modelling with Maplesoft commands
