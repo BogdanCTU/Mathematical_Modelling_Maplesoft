@@ -1,3 +1,6 @@
+%% Created by Maple 2025.1, Windows 11
+%% Source Worksheet: MM_GENERAL_FULL_DOC
+%% Generated: Mon Jan 05 16:53:47 EET 2026
 ## SEMINAR 1: Modelling Change with Difference Equations
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
@@ -5,7 +8,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
 Write the first five terms of the following sequences:
 
-(a) a_\{n+1\} = 3*a_\{n\} , a_\{0\} = 1
+(a) $a_{n+1}$ = 3*$a_{n}$ , $a_{0}$ = 1
 
 ```maple
 > a[0] := 1000;
@@ -51,8 +54,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
 Write the first 5 terms of the sequence satisfying the following difference equations and draw the corresponding graph of the generated dynamical system:
 
-Δa_\{n\} =
-$ \frac{1}{3}*a_* {\{n \}} $ , a_\{0\}=1
+$Δa_{n}$ =
+$ \frac{1}{3}a_ {{n }} $ , $a_{0}$=1
 ```maple
 > restart;
 
@@ -105,9 +108,9 @@ n 0 1 2 3 4 5 6 7 8\
 
 an 0.5 0.345 0.238 0.164 0.113 0.078 0.054 0.037 0.026
 
-(a) Get Δa_\{n\} and plot Δa_\{n\} versus a_\{n\};
+(a) Get $Δa_{n}$ and plot $Δa_{n}$ versus $a_{n}$;
 
-(b) Find a proportional constant for Δa_\{n\} and a_\{n\}
+(b) Find a proportional constant for $Δa_{n}$ and $a_{n}$
 
 ```maple
 > restart;
@@ -151,18 +154,14 @@ $$
 $$
 \mathit{an} := \left[ 0.5, 0.345, 0.238, 0.164, 0.113, 0.078, 0.054, 0.037, 0.026\right]
 $$
+
 ![Plot](MM_GENERAL_FULL_DOCplot2d3.png)
+
 $$
-\mathit{ratios} :=
-
-\left[- 0.3100000000,- 0.3101449275,- 0.3109243697,
-
-- 0.3109756098,- 0.3097345133,- 0.3076923077,
-
-- 0.3148148148,- 0.2972972973\right]
+\mathit{ratios} := \left[- 0.3100000000,- 0.3101449275,- 0.3109243697,- 0.3109756098,- 0.3097345133,- 0.3076923077, - 0.3148148148,- 0.2972972973\right]
 $$
 $$
-\textit{k\_constant} := - 0.3089479800
+\textit{k} := - 0.3089479800
 $$
 $$
 \text{``The proportional constant k is approximately:''},- 0.3089479800
@@ -217,7 +216,7 @@ display(data_plot);
 
 Find the solution for the following initial value problems. Plot your data to observe patterns in the solutions:
 
-(a) a_\{n+1\} = -1.2 * a_\{n\} + 50 , a_\{0\}=1000;
+(a) $a_{n+1}$ = -1.2 * $a_{n}$ + 50 , $a_{0}$=1000;
 
 ```maple
 > restart;
@@ -271,19 +270,19 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 ### S2 - }\textbf{ESERCISE 2:
 
 Consider the simple interest formula:
-S_\{n+1\} = S_\{n\} + p * S_\{0\}
+$S_{n+1}$ = $S_{n}$ + p * $S_{0}$
 and the compound interest formula\
 
-S_\{n+1\} = S_\{n\} +
+$S_{n+1}$ = $S_{n}$ +
 
 $ \frac{p}{r} $
-* S_\{n\}
+* $S_{n}$
 There are three options to earn interest. Company A offers simple interest at a rate of 6\%.\
 
 Company B offers compound interest at a 4\% rate with a conversion period of one month.
 Company C offers compound interest at a 4\% rate with a conversion period of three months.
 
-(a) Calculate for the three cases the amount on deposit after 5, 10, 15, and 20 years for any principal S_\{0\};
+(a) Calculate for the three cases the amount on deposit after 5, 10, 15, and 20 years for any principal $S_{0}$;
 
 (b) Which interest offer maximizes the amount on deposit after 5, 10, 15,and 20 years?
 
@@ -744,7 +743,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
 Consider the following mosquito model\
 
-x_\{n+1\} = ( a*x\{n\} + b*x_\{n-1\} * e^[-x_\{n-1\}] ) * e^[-x_\{n\}] ,where a∈(0; 1), b∈[0; +∞).
+$x_{n+1}$ = ( a*x{n} + b*$x_{n-1}$ * $e^{-$x_{n-1}$}$ ) * $e^{-$x_{n}$}$ ,where a∈(0; 1), b∈[0; +∞).
 
 This equation describes the growth of a mosquito population. Mosquitoes lay eggs, some of which hatch as soon as conditions are favorable,\
 
@@ -939,7 +938,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
 ### S3 - ESERCISE 3:
 
-Flour Beetles model: x_\{n+1\} = α*x_\{n\} + β*x_\{n-2\}*e^[-c_\{1\}*x_\{n-2\}-c_\{2\}*x_\{n\}] , where α, β > 0.\
+Flour Beetles model: $x_{n+1}$ = α*$x_{n}$ + β*$x_{n-2}$*$e^{-$c_{1}$*$x_{n-2}$-$c_{2}$*$x_{n}$}$ , where α, β > 0.\
 
 \
 
@@ -1179,9 +1178,9 @@ Study the stability of the equilibrium point (0,0) for the following systems. Fo
 
 (a)
 $ \displaystyle \left{\begin{array}{cc}
-\boldsymbol{\mathrm{x_}}{\{\boldsymbol{\mathrm{n}}\boldsymbol{+}\boldsymbol{1}\}}=*x_* {\{n \}}+4\cdot *y_* {\{n \}} &
+\boldsymbol{\mathrm{x_}}{{\boldsymbol{\mathrm{n}}\boldsymbol{+}\boldsymbol{1}}}=x_ {{n }}+4\cdot y_ {{n }} &
 \\
-*y_* {\{n +1\}}=\frac{1}{4}\cdot *x_* {\{n \}}+*y_* {\{n \}} &
+y_ {{n +1}}=\frac{1}{4}\cdot x_ {{n }}+y_ {{n }} &
 \end{array} $
 ```maple
 > restart;
@@ -1298,9 +1297,9 @@ For locally asymptotically stable equilibrium points, determine some initial con
 
 (a)
 $ \left{\begin{array}{cc}
-\boldsymbol{\mathrm{x_}}{\{\boldsymbol{\mathrm{n}}\boldsymbol{+}\boldsymbol{1}\}}=*x_* {\{n \}}+\frac{1}{6}\cdot *x_* {\{n \}}\cdot (1-*x_* {\{n \}}-y {\{n \}}) &
+\boldsymbol{\mathrm{x_}}{{\boldsymbol{\mathrm{n}}\boldsymbol{+}\boldsymbol{1}}}=x_ {{n }}+\frac{1}{6}\cdot x_ {{n }}\cdot (1-x_ {{n }}-y {{n }}) &
 \\
-*y_* {\{n +1\}}=*y_* {\{n \}}\cdot \boldsymbol{(\boldsymbol{1}\boldsymbol{+}\boldsymbol{\mathrm{x_}}\boldsymbol{{\{\boldsymbol{n} \}}}\boldsymbol{-}\boldsymbol{y} \boldsymbol{{\{\boldsymbol{n} \}}})} &
+y_ {{n +1}}=y_ {{n }}\cdot \boldsymbol{(\boldsymbol{1}\boldsymbol{+}\boldsymbol{\mathrm{x_}}\boldsymbol{{{\boldsymbol{n} }}}\boldsymbol{-}\boldsymbol{y} \boldsymbol{{{\boldsymbol{n} }}})} &
 \end{array} $
 
 ```maple
@@ -1465,13 +1464,13 @@ $$
 
 Find the general solution of the differential equations:
 
-(a) 2 * x^[2] * y' = x^[2] + y^[2]
+(a) 2 * $x^{2}$ * y' = $x^{2}$ + $y^{2}$
 
 (b) y' = -((x+y)/y)
 
 (e) y'' + y = sin(x) + cos(x)
 
-(g) y'' - y' = 1/(1+e^[x])
+(g) y'' - y' = 1/(1+$e^{x}$)
 
 ```maple
 > restart;
@@ -1571,9 +1570,9 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
 Solve the following IVPs and plot the solution graph:
 
-(a) y' = 1 + y^[2] , y_\{0\} = 1;
+(a) y' = 1 + $y^{2}$ , $y_{0}$ = 1;
 
-(d) y'' - 5*y' + 4*y = 0 , y_\{0\}=5, y'_\{0\}=3;
+(d) y'' - 5*y' + 4*y = 0 , $y_{0}$=5, y'_{0}=3;
 
 ```maple
 > restart;
@@ -1635,15 +1634,15 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 ### S4 - ESERCISE 3:
 
 Consider the di§erential equation:
-y'(x) + (k/x)*y(x) = x^[3] , where k∈ℝ
+y'(x) + (k/x)*y(x) = $x^{3}$ , where k∈ℝ
 
 (a) Find the general solution;
 
 (b) For k = 1 draw the solution curve;
 
-(c) For k = 1 solve the IVP \{ [ y'(x) + (k/x)*y(x) = x^[3] ] , [ y(1) = 0 ] \} and draw the graph of solution;
+(c) For k = 1 solve the IVP { [ y'(x) + (k/x)*y(x) = $x^{3}$ ] , [ y(1) = 0 ] } and draw the graph of solution;
 
-(d) Use animate command to see the dependence of the solution for the IVP \{ [ y'(x) + (k/x)*y(x) = x^[3] ] , [ y(1) = 0 ] \} with respect to the parameter k.
+(d) Use animate command to see the dependence of the solution for the IVP { [ y'(x) + (k/x)*y(x) = $x^{3}$ ] , [ y(1) = 0 ] } with respect to the parameter k.
 
 ```maple
 > restart;
@@ -1827,11 +1826,11 @@ $$
 
 Find the decay constant for a radioactive substance for the given half-life value
 
-(a) T_\{1/2\} = 5730 years for C^[14]
+(a) $T_{1/2}$ = 5730 years for $C^{14}$
 
-(b) T_\{1/2\} = 4,468 * 10^[9] years for U^[238]
+(b) $T_{1/2}$ = 4,468 * $10^{9}$ years for $U^{238}$
 
-(c) T_\{1/2\} = 706 * 10^[6] years for U^[235]
+(c) $T_{1/2}$ = 706 * $10^{6}$ years for $U^{235}$
 
 ```maple
 > restart;
@@ -2123,8 +2122,8 @@ Letís consider the Gompertz Differential Equation model used in the growth of t
 $ \displaystyle \left{\begin{array}{cc}
 x\esapos{(t)}=r\cdotx{(t)}\cdot\ln\cdot{(\frac{k}{x{\textcolor{DarkOrchid{(}t)}}})} &
 \\
-x (0)=*x_* {\{0\}} &
-\end{array},\mathit{where} *x_* {\{0\}}>0\boldsymbol{\land}r >0 $
+x (0)=x_ {{0}} &
+\end{array},\mathit{where} x_ {{0}}>0\boldsymbol{\land}r >0 $
 
 (a) Find the model solution;
 \
@@ -2211,7 +2210,7 @@ Letís consider the mathematical model used in the growth of cells:
 $ \left{\begin{array}{cc}
 x\esapos{(t)}=\frac{b\cdotx{(t)}}{1+x{\textcolor{DarkOrchid{(}t)}}}-d\cdotx{(t)} &
 \\
-x (0)=*x_* {\{0\}} &
+x (0)=x_ {{0}} &
 \end{array} $, where b is the cells birth rate, d is the cells death rate. The factor 1/(1+x(t)) simulates the crowding effect.
 
 (a) Find the equilibrium solutions and study their stability;
@@ -2354,19 +2353,19 @@ Find the solution for the following difference equations:\
 
 **Difference equation:**\
 
-a) x_\{n+1\} = [(n+1)/(n+2)]^2 * x_\{n\} + [1/(n+2)] , where x_\{0\}=1\
+a) $x_{n+1}$ = [(n+1)/(n+2)]^2 * $x_{n}$ + [1/(n+2)] , where $x_{0}$=1\
 
 \
 
 **Higher-order difference equation:**\
 
-b) x_\{n+3\} - 4 * x_\{n+2\} = x_\{n+1\} + 6 * x_\{n\} = 60 * 4^[n] , where x_\{0\}=2, x_\{1\}=12, x_\{2\}=12\
+b) $x_{n+3}$ - 4 * $x_{n+2}$ = $x_{n+1}$ + 6 * $x_{n}$ = 60 * $4^{n}$ , where $x_{0}$=2, $x_{1}$=12, $x_{2}$=12\
 
 \
 
 **Non-linear difference equation:**\
 
-c) x_\{n+1\} = ( 2 * x_\{n\} ) / ( 1 + 4 * x_\{n\} ) ,where x_\{0\}=1, Hint: use substitution x_\{n\} = 1/y_\{n\}
+c) $x_{n+1}$ = ( 2 * $x_{n}$ ) / ( 1 + 4 * $x_{n}$ ) ,where $x_{0}$=1, Hint: use substitution $x_{n}$ = 1/$y_{n}$
 ```maple
 > ##### a) x_\{n+1\} = [(n+1)/(n+2)]^2 * x_\{n\} + [1/(n+2)] , where x_\{0\}=1
 restart;
@@ -2456,7 +2455,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
 ### TEST - ESERCISE 2:
 
-Let us consider the difference equation: x_\{n+1\} = ( x^[x]_\{n\} + 7 ) / ( 2 * x_\{n\} )\
+Let us consider the difference equation: $x_{n+1}$ = ( $x^{x}$_{n} + 7 ) / ( 2 * $x_{n}$ )\
 
 \
 
@@ -2531,9 +2530,9 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
 Let us consider the system of **difference equations**:\
 
-\{ x_\{n+1\} = x_\{n\} - x_\{n\}^[2] - x_\{n\} * y_\{n\}\
+{ $x_{n+1}$ = $x_{n}$ - $x_{n}$^[2] - $x_{n}$ * $y_{n}$\
 
-\{ y_\{n+1\} = 2 * y_\{n\} - y\{n\}^[2] - 3 * x_\{n\} * y_\{n\}\
+{ $y_{n+1}$ = 2 * $y_{n}$ - y{n}^[2] - 3 * $x_{n}$ * $y_{n}$\
 
 \
 
