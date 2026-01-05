@@ -1,7 +1,7 @@
 ## SEMINAR 1: Modelling Change with Difference Equations
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
-### EXERCIE 1
+### S1 - EXERCIE 1
 
 Write the first five terms of the following sequences:
 
@@ -47,7 +47,7 @@ $$
 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
-### EXERCISE 2
+### S1 - EXERCISE 2
 
 Write the first 5 terms of the sequence satisfying the following difference equations and draw the corresponding graph of the generated dynamical system:
 
@@ -94,14 +94,14 @@ $$
 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
-### EXERCISE 3
+### S1 - EXERCISE 3
 
 (Decay of Digoxin in the Bloodstream) Digoxin is used in treatment of heart disease.\
 
 Doctors must prescribe an amount of medicine that keeps the concetration of digoxin in the bloodstream above an e§ective level without exceeding the safe level.
 For an initial dosage of 0:5 mg in the bloodstream , table shows the amount of digoxin an remaining in the bloodstream of a particular pacient after n days.
 
-n 0 1 2 3 4 5 6 7 8\
+n 0 1 2 3 4 5 6 7 8
 
 an 0.5 0.345 0.238 0.164 0.113 0.078 0.054 0.037 0.026
 
@@ -169,7 +169,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 ### S1 - EXERCISE 4
 
 The following data were obtained for the growth of a sheep population introduced into new enviroment on the island of Tasmania:
-Year 1814 1824 1834 1844 1854 1864\
+
+Year 1814 1824 1834 1844 1854 1864
 
 Population 125 275 830 1200 1750 1650
 
@@ -201,3 +202,4 @@ display(data_plot);
 ```
 ![Plot](MM_GENERAL_FULL_DOCplot2d4.png)
 ![Plot](MM_GENERAL_FULL_DOCplot2d5.png)
+
