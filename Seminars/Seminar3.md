@@ -558,13 +558,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 Study the stability of the equilibrium point (0,0) for the following systems. For the cases where stability occurs, verify this property numerically.
 
 ```
-(a)
-$$
-\begin{cases}
-x_{n+1} = x_{n} + 4 \cdot y_{n} \\\\
-y_{n+1} = \frac{1}{4} \cdot x_{n} + y_{n}
-\end{cases}
-$$
+(a) $$ \begin{cases} x_{n+1} = x_{n} + 4 \cdot y_{n} \ y_{n+1} = \frac{1}{4} \cdot x_{n} + y_{n} \end{cases} $$
 ```
 
 ```maple
@@ -678,9 +672,9 @@ S3 - EXERCISE 5
 Find and study the stability of the equilibrium points for the following systems.
 For locally asymptotically stable equilibrium points, determine some initial conditions for which the corresponding solution converges to that equilibrium point.
 
-```
-(a) $$ \left\{ \begin{array}{l} x_{n+1} = x_{n} + \frac{1}{6} x_{n} (1 - x_{n} - y_{n}) \\\\ y_{n+1} = y_{n} (1 + x_{n} - y_{n}) \end{array} \right. $$
-```
+(a)
+
+$$ \begin{cases} x_{n+1} = x_{n} + \frac{1}{6} \cdot x_{n} \cdot (1 - x_{n} - y_{n}) \ y_{n+1} = y_{n} \cdot (1 + x_{n} - y_{n}) \end{cases} $$
 
 ```maple
 > restart;
